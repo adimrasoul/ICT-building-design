@@ -1,0 +1,43 @@
+Program Version,EnergyPlus, Version 9.0.1-bb7ca4f0da, YMD=2020.01.15 00:28
+1,5,Environment Title[],Latitude[deg],Longitude[deg],Time Zone[],Elevation[m]
+2,8,Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],Hour[],StartMinute[],EndMinute[],DayType
+3,5,Cumulative Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],DayType  ! When Daily Report Variables Requested
+4,2,Cumulative Days of Simulation[],Month[]  ! When Monthly Report Variables Requested
+5,1,Cumulative Days of Simulation[] ! When Run Period Report Variables Requested
+6,1,Calendar Year of Simulation[] ! When Annual Report Variables Requested
+7,1,Environment,Site Outdoor Air Drybulb Temperature [C] !Hourly
+8,7,Environment,Site Outdoor Air Drybulb Temperature [C] !Daily [Value,Min,Hour,Minute,Max,Hour,Minute]
+9,9,Environment,Site Outdoor Air Drybulb Temperature [C] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+10,11,Environment,Site Outdoor Air Drybulb Temperature [C] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+11,1,Environment,Site Outdoor Air Dewpoint Temperature [C] !Hourly
+12,7,Environment,Site Outdoor Air Dewpoint Temperature [C] !Daily [Value,Min,Hour,Minute,Max,Hour,Minute]
+13,9,Environment,Site Outdoor Air Dewpoint Temperature [C] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+14,11,Environment,Site Outdoor Air Dewpoint Temperature [C] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+15,1,Environment,Site Outdoor Air Barometric Pressure [Pa] !Hourly
+16,7,Environment,Site Outdoor Air Barometric Pressure [Pa] !Daily [Value,Min,Hour,Minute,Max,Hour,Minute]
+17,9,Environment,Site Outdoor Air Barometric Pressure [Pa] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+18,11,Environment,Site Outdoor Air Barometric Pressure [Pa] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+19,1,Environment,Site Wind Speed [m/s] !Hourly
+20,7,Environment,Site Wind Speed [m/s] !Daily [Value,Min,Hour,Minute,Max,Hour,Minute]
+21,9,Environment,Site Wind Speed [m/s] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+22,11,Environment,Site Wind Speed [m/s] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+23,1,Environment,Site Wind Direction [deg] !Hourly
+24,7,Environment,Site Wind Direction [deg] !Daily [Value,Min,Hour,Minute,Max,Hour,Minute]
+25,9,Environment,Site Wind Direction [deg] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+26,11,Environment,Site Wind Direction [deg] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+27,1,Environment,Site Diffuse Solar Radiation Rate per Area [W/m2] !Hourly
+28,7,Environment,Site Diffuse Solar Radiation Rate per Area [W/m2] !Daily [Value,Min,Hour,Minute,Max,Hour,Minute]
+29,9,Environment,Site Diffuse Solar Radiation Rate per Area [W/m2] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+30,11,Environment,Site Diffuse Solar Radiation Rate per Area [W/m2] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+31,1,Environment,Site Direct Solar Radiation Rate per Area [W/m2] !Hourly
+32,7,Environment,Site Direct Solar Radiation Rate per Area [W/m2] !Daily [Value,Min,Hour,Minute,Max,Hour,Minute]
+33,9,Environment,Site Direct Solar Radiation Rate per Area [W/m2] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+34,11,Environment,Site Direct Solar Radiation Rate per Area [W/m2] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+35,1,Environment,Site Solar Azimuth Angle [deg] !Hourly
+36,7,Environment,Site Solar Azimuth Angle [deg] !Daily [Value,Min,Hour,Minute,Max,Hour,Minute]
+37,9,Environment,Site Solar Azimuth Angle [deg] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+38,11,Environment,Site Solar Azimuth Angle [deg] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+39,1,Environment,Site Solar Altitude Angle [deg] !Hourly
+40,7,Environment,Site Solar Altitude Angle [deg] !Daily [Value,Min,Hour,Minute,Max,Hour,Minute]
+41,9,Environment,Site Solar Altitude Angle [deg] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+42,11,Environment,Site Solar Altitude Angle [deg] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]

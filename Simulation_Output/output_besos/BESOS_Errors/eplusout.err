@@ -1,0 +1,25 @@
+Program Version,EnergyPlus, Version 9.0.1-bb7ca4f0da, YMD=2020.01.15 00:28,
+   ** Warning ** Timestep: Requested number (2) is less than the suggested minimum of 4.
+   **   ~~~   ** Please see entry for Timestep in Input/Output Reference for discussion of considerations.
+   ************* Beginning Zone Sizing Calculations
+   ** Severe  ** WindowMaterial:Glazing="38", Illegal value combination.
+   **   ~~~   ** Solar Transmittance at Normal Incidence + Back Side Solar Reflectance at Normal Incidence not <= 1.0
+   ** Warning ** GetSurfaceData: Construction PARTIZIONE DI PROGETTO_REV of interzone surface BLOCCO1:CORRIDOIO_PARTITION_2_0_0 does not have the same materials in the reverse order as the construction PARTIZIONE DI PROGETTO of adjacent surface BLOCCO1:ROOM407_PARTITION_4_0_10001
+   **   ~~~   ** ...but Nominal U values are similar, diff=[0.0000] ... simulation proceeds.
+   **   ~~~   ** ...if the two zones are expected to have significantly different temperatures, the proper "reverse" construction should be created.
+   **   ~~~   ** ...this problem for this pair will not be reported again.
+   ** Warning ** GetSurfaceData: Entered Zone Floor Areas differ from calculated Zone Floor Area(s).
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Warning ** CalcSurfaceCentroid: 2 Surfaces have the Z coordinate < 0.
+   **   ~~~   ** ...in any calculations, Wind Speed will be 0.0 for these surfaces.
+   **   ~~~   ** ...in any calculations, Outside temperatures will be the outside temperature + 9.750E-003 for these surfaces.
+   **   ~~~   ** ...that is, these surfaces will have conditions as though at ground level.
+   **  Fatal  ** GetSurfaceData: Errors discovered, program terminates.
+   ...Summary of Errors that led to program termination:
+   ..... Reference severe error count=1
+   ..... Last severe error=WindowMaterial:Glazing="38", Illegal value combination.
+   ************* Warning:  Node connection errors not checked - most system input has not been read (see previous warning).
+   ************* Fatal error -- final processing.  Program exited before simulations began.  See previous error messages.
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 3 Warning; 1 Severe Errors.
+   ************* EnergyPlus Terminated--Fatal Error Detected. 4 Warning; 1 Severe Errors; Elapsed Time=00hr 00min  0.49sec
